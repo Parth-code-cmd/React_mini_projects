@@ -159,7 +159,3 @@ The implementation is present in these files:
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
 # React_mini_projects
-# React_mini_projects
-# React_mini_projects
-# React_mini_projects
-# React_mini_projects
