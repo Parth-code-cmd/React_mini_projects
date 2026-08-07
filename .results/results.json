@@ -1,0 +1,82 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When a new appointment is added, the page should consist of at least one HTML list item and the appointments list should be rendered using a unique key as a prop for each appointment item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided in the HTML input elements for title and date, and the Add button is clicked, the page should consist of an HTML list item to display the appointment",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided in the HTML input elements for title and date, and the Add button is clicked, an HTML paragraph element with text content as the title provided should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided in the HTML input elements for title and date, and the Add button is clicked, an HTML paragraph element with text content as the formatted date should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "When a new appointment is added, the appointment should consist of an HTML button element with data-testid as \"star\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When a new appointment is added, the appointment should consist of an HTML image element with alt as \"star\" and src value as URL for the star image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When a new appointment is added and the HTML button with data-testid as \"star\" is clicked, the appointment should consist of an HTML image with alt as \"star\" and src value as URL for the filled star image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with text content as \"Starred\" is active, only the list of starred appointments should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with text content as \"Starred\" is inactive, all the list of appointments should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "Page should display the initial appointments from local storage even after page reload",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "Page should display the initial appointments with their corresponding starred/unstarred status from local storage even after page reload",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When a new appointment item is added then the localStorage setItem method should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPI1OCY_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When an appointment is starred then the localStorage setItem method should be called",
+      "errorMessages": []
+    }
+  ]
+}
