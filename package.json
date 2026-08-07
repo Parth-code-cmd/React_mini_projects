@@ -4,14 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite",
-    "build": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest --run"
-  },
+  "dev": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite",
+  "build": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "test": "vitest --run"
+},
   "dependencies": {
     "date-fns": "4.1.0",
+    "gh-pages": "^6.3.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "uuid": "11.1.0"
